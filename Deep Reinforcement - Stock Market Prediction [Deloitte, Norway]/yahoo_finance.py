@@ -15,4 +15,4 @@ symbols = ['BABA']
 
 for i in symbols:
     data.DataReader(i,'yahoo',start_date,end_date).to_csv(i+'.csv')
-   
+  
