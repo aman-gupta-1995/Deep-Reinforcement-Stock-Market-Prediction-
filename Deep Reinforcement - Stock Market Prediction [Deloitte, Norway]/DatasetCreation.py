@@ -1,7 +1,7 @@
 import pandas as pd
 
 file = "AAPL.CSV" 
-  
+   
 xl = pd.read_csv(file) 
 date = xl['Date']
 Close = xl['Close']
