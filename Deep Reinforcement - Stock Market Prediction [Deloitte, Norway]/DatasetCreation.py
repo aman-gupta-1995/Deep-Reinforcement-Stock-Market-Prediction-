@@ -3,7 +3,7 @@ import pandas as pd
 file = "AAPL.CSV"  
     
 xl = pd.read_csv(file)    
-date = xl['Date']
+date = xl['Date'] 
 Close = xl['Close']  
 AD_Position = Close.copy()
 Change = [0]* len(date) 
