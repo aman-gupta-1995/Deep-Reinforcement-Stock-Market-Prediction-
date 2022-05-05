@@ -1,6 +1,6 @@
 import pandas as pd
 
-file = "AAPL.CSV"
+file = "AAPL.CSV" 
   
 xl = pd.read_csv(file)
 date = xl['Date']
