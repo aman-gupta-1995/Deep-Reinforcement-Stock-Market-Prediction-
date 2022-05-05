@@ -4,7 +4,7 @@ file = "AAPL.CSV"
     
 xl = pd.read_csv(file)   
 date = xl['Date']
-Close = xl['Close']
+Close = xl['Close'] 
 AD_Position = Close.copy()
 Change = [0]* len(date)
 Momentum = [0]* len(date)
