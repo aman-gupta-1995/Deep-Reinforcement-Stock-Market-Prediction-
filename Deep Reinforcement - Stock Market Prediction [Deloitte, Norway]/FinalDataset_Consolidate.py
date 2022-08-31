@@ -1,6 +1,6 @@
 import pandas as pd
 
-file1 = "Apple_Modified.CSV"
+file1 = "Apple_Modified.CSV" 
 file2 = "Amazon_Modified.CSV"
 # file3 = "Alibaba_Modified.CSV"
 file3 = "Google_Modified.CSV"
