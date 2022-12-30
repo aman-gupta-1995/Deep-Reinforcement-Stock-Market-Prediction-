@@ -2,7 +2,7 @@ from pandas_datareader import data
 import pandas as pd
   
      
-# Define which online source one should use 
+# Define which online source one should use  
 data_source = 'yahoo'  
 
 # We would like all available data from 01/01/2000 until 12/31/2016.
