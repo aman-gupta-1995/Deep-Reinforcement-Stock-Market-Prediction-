@@ -1,6 +1,6 @@
 from pandas_datareader import data
 import pandas as pd     
-         
+          
                  
 # Define which online source one should use            
 data_source = 'yahoo'          
