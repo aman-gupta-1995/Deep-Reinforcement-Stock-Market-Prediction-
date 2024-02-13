@@ -1,5 +1,5 @@
 import pandas as pd
-
+ 
 file = "AAPL.CSV"  
     
 xl = pd.read_csv(file)    
