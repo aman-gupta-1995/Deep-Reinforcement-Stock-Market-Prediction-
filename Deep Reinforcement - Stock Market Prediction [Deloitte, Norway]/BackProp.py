@@ -1,7 +1,7 @@
 #Program for backpropogation for  6 class Dermatology dataset
 
 from math import exp
-from random import random
+from random import random 
 from csv import reader
 import numpy as np
 import time
