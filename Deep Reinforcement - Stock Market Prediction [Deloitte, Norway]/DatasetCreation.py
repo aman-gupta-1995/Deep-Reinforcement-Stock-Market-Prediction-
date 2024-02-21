@@ -6,7 +6,7 @@ xl = pd.read_csv(file)
 date = xl['Date'] 
 Close = xl['Close']  
 AD_Position = Close.copy()
-Change = [0]* len(date) 
+Change = [0]* len(date)
 Momentum = [0]* len(date) 
 
 dates = [i.split(' ', 1)[0] for i in date]
